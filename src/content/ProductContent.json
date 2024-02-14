@@ -1,4 +1,12 @@
 {
-  "title": "That's about it!",
-  "text": "If you are familiar with React, or SPA frameworks in general, there shouldn't be any confusing parts about this template. if not, you can always reach out to me and I'll try me best to answer your questions."
+  "title": "My Projects!",
+  "contents": [
+    "https://www.traveltimeplatform.com/",
+    "https://ifworlddesignguide.com/",
+    "https://cookie.game/#/app",
+    "https://app.highlord.io/",
+    "https://play.google.com/store/apps/details?id=com.cryptokara",
+    "https://flyp.me/en/#/",
+    "https://theme.bitrixinfotech.com/nft-marketplace/"
+  ]
 }

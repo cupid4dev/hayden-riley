@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Hayden Riley",
+  "text": "Seasoned Senior Full-Stack & Blockchain Developer, Specializing in Crafting Stunning UI/UX Frontend Experiences and Delivering High-Quality Backend Solutions. With Extensive Expertise in Blockchain Networks Including Ethereum, BNB, Solana, Cardano, and XRP, I Bring a Wealth of Experience in Developing Secure and Scalable Solutions Across the Stack.",
   "button": [
     {
-      "title": "Explore"
+      "title": "I'm Familiar With"
     },
     {
-      "title": "Learn more",
+      "title": "I'm Focusing On",
       "color": "#fff"
     }
   ]

@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "UI/UX & QoC",
+  "text": "UI/UX (User Interface / User Experience) & QoC (Quality of Code). These two things are what I'm focusing on when I work as a freelancer.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why UI/UX?",
+      "content": "UI/UX design is essential for creating user-friendly digital experiences that all the clients require for the brand loyalty.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Why QoC?",
+      "content": "Quality of Code is the speed of the development I think. And it will affect the project upgrading and management.",
       "icon": "notes.svg"
     }
   ]

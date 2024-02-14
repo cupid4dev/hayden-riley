@@ -13,6 +13,8 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  border-radius: 50%;
+  overflow: hidden;
 `;
 
 export const NavLink = styled("div")`

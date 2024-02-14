@@ -24,13 +24,13 @@ export const useForm = (validate: any) => {
     // Your url for API
     const url = "";
     if (Object.values(values).every((x) => x !== "")) {
-      axios
-        .post(url, {
-          ...values,
-        })
-        .then(() => {
+      // axios
+      //   .post(url, {
+      //     ...values,
+      //   })
+      //   .then(() => {
           setShouldSubmit(true);
-        });
+        // });
     }
   };
 

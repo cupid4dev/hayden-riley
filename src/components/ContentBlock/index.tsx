@@ -15,6 +15,7 @@ import {
   StyledRow,
   ButtonWrapper,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 const ContentBlock = ({
   icon,
@@ -48,7 +49,12 @@ const ContentBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              { title == "My Projects!" ? 
+                content.map((value: any, index: any) => (
+                  <Link to={value} key={index}>{value}<br/></Link>
+                ))
+              : <Content>{t(content)}</Content>}
+              {title == "My Projects!" && "..."}
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&
@@ -64,7 +70,7 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => scrollTo(item.title == "I'm Familiar With" ? "familiar" : "about")}
                           >
                             {t(item.title)}
                           </Button>
@@ -93,7 +99,7 @@ const ContentBlock = ({
                                 height="60px"
                               />
                               <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
+                               <MinPara>{t(item.content)}</MinPara>
                             </Col>
                           );
                         }
